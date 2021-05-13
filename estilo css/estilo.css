@@ -1,0 +1,382 @@
+
+/*header*/
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin:auto;
+   
+   margin-bottom: 25px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lista{
+    display: flex;
+}
+li{
+    margin-right: 30px;
+    list-style: none;
+    
+    font-size: 20px;
+   
+    
+}
+a{
+    text-decoration:none;
+    color:#263545;
+}
+/*fin del header*/
+
+
+/*la imagen de fondo*/
+#encabezado{
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+background-size: cover;
+padding:100px 0;
+    
+}
+/*contenedor del texto*/
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+  
+    
+
+}
+/*container del texto*/
+.flex-text{
+   
+    margin-left: 20px;
+}
+/*darles propidades al h1: que dice Good Things Comes In Small Packages*/
+.flex-text h1{
+    font-size: 40px;
+    color:#34495E;
+    margin-bottom: 70px;
+    padding-left:30px;
+}
+/*darle propiedades de a que dice:SEE JEWELERY*/
+.flex-img{
+    margin-left: 30px;
+    
+}
+.button{
+    text-decoration: none;
+    color: #02475e;
+            border: 2px solid #263545;
+            border-radius: 6px;
+            padding: 15px 25px;
+            margin-left:50px;
+            display: inline-block;
+            box-shadow: 15px 9px 35px -2px rgba(0,0,0,0.68);
+            -webkit-box-shadow: 15px 9px 35px -2px rgba(0,0,0,0.68);
+            -moz-box-shadow: 15px 9px 35px -2px rgba(0,0,0,0.68); 
+        
+}
+.flex-img img{
+    width: 95%;
+}
+.other-button{
+    display: none;
+}
+
+
+
+#tarjeta{
+    display:flex;
+    justify-content:center;
+    padding-bottom: 1em; 
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.tarjeta{
+    width: 25%;
+    margin: 0 20px;
+    text-align: center;
+    box-shadow: 16px 16px 23px -2px rgba(0,0,0,0.4);
+-webkit-box-shadow: 16px 16px 23px -2px rgba(0,0,0,0.4);
+-moz-box-shadow: 16px 16px 23px -2px rgba(0,0,0,0.4);
+border-radius: 24px 24px 24px 24px;
+padding-top: 4em;
+margin-bottom: 2em;
+ 
+}
+img{
+    width: 50%;
+}
+.tarjeta h2{
+    font-size: 17px;
+    color: #34495E;
+}
+.precio{
+    color: #34495E;
+}
+.parrafo{
+    line-height: 30px;
+}
+.more-product{
+    text-decoration: none;
+    color: #02475e;
+            border: 2px solid #263545;
+            border-radius: 6px;
+            padding: 15px 25px;
+            margin-left:35em;
+            margin-bottom: 3em;
+            display: inline-block;
+            box-shadow: 15px 9px 35px -2px rgba(0,0,0,0.68);
+            -webkit-box-shadow: 15px 9px 35px -2px rgba(0,0,0,0.68);
+            -moz-box-shadow: 15px 9px 35px -2px rgba(0,0,0,0.68); 
+}
+
+
+
+/*segunda parte de la pagina*/
+.contenedor-imagen {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-bottom: 30px;
+}
+.contenedor-imagen img{
+    width: 40%;
+}
+.contenedor-frase{
+    
+    width: 42%;
+}
+.contenedor-frase h1{
+    font-size: 30px;
+    
+    padding-top:12px;
+   
+}
+.contenedor-frase p{
+    
+    margin-top:50px;
+    padding-top:40px;
+    padding-bottom:1em;
+}
+.contenedor-frase a{
+    text-decoration:none;
+    padding: 15px 20px;
+    
+    padding-left: 30px;
+    margin-left:50px;
+    
+}
+.menu-icon{
+    display: none;
+}
+
+/*footer*/
+.container{
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+background-size: cover;
+padding:0 0;
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-around;
+  
+    
+
+}
+.right{
+    width: 30%;
+    
+    text-align: center;
+    color:#fff;
+    margin-top: 4em;
+    margin-bottom: 3.5em;
+}
+.text{
+    color: #fff;;
+    text-align: start;
+}
+.right img{
+    width: 15px;
+}
+.right a{
+    text-decoration: none;
+    color:#fff;
+}
+
+/*Responsive*/
+@media(max-width:480px){
+    nav{
+        position:absolute;
+        top:80px;
+        left:0;
+        background: #C5B4B4;
+        width: 100%;
+        display: none;
+        opacity: 0.5;
+    }
+    nav .lista{
+        flex-direction: column;
+        display:flex;
+    }
+    .lista a{
+       color:black;
+       font-size: 23px;
+       padding-bottom: 20px;
+    }
+    .menu-icon{
+        display:block;
+        width: 25px;
+    }
+    #encabezado{
+        padding:0px;
+    }
+    .button{
+        display: none;
+    }
+    .other-button{
+        text-decoration: none;
+            color:#34495E;
+            border: 2px solid #263545;
+            border-radius: 6px;
+            padding: 15px 25px;
+            margin-left:50px;
+            display: inline-block;
+            -webkit-box-shadow: 16px 16px 23px -2px rgba(0,0,0,0.4);
+            -moz-box-shadow: 16px 16px 23px -2px rgba(0,0,0,0.4);
+            border-radius: 24px 24px 24px 24px;
+        
+    }
+    #tarjeta{
+        
+        flex-direction: column;
+    }
+    .tarjeta{
+        width:90%;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .more-product{
+        margin-left:6.5em;
+    }
+
+
+
+
+    .flex-text h1{
+        margin-bottom: -12px
+    }
+    .flex-img{
+        margin-top:40px;
+        margin-bottom: 20px;
+    }
+    .flex-img img{
+        width: 104%;
+        margin-left: -28px;
+        margin-bottom: 17px;
+    }
+    .flex-text{
+        margin-left: -43px;
+        text-align: center;
+    }
+    /*Segunda seccion*/
+    .contenedor h2{
+        margin-top: 30px;
+        margin-bottom: 26px;
+    }
+    .contenedor-ejemplo{
+        display: flex;
+        flex-direction: column;
+    }
+    .ejemplo-imagen p{
+        font-size: 1.6em;
+        padding: 5px 1px 4px 0px;
+        margin-bottom: -3em;
+    }
+    /*contenedor de imagenes*/
+    .ejemplo-imagen{
+        width: 75%;
+    }
+    .ejemplo-imagen img{
+        padding:0;
+        width: 100%;
+        margin-top:-22px;
+    }
+    .ejemplo-imagen h3{
+        font-size: 1.7em;
+    }
+    .boton{
+        margin-left: 8em;
+        margin-bottom: 4.5em;
+        margin-top:2em;
+    }
+    .boton a{
+        padding:15px 16px;
+    }
+    .contenedor-imagen{
+        display:flex;
+        flex-direction: column;
+    }
+    .contenedor-imagen img{
+        width: 90%;
+        margin-left: 1em;
+        margin-bottom: 2.5em;
+    }
+    .contenedor-frase{
+        width: 100%;
+        margin-left: 0em;
+    }
+    .contenedor-frase h1{
+        font-size:1.4em;
+        padding-left:0.4em;
+        padding-top:1em;
+        text-align: center;
+        margin-top: -33px;
+    }
+    .contenedor-frase p{
+        font-size: 1.8em;
+        text-align: center;
+        padding: 3px 13px;
+        margin-bottom: -20px;
+        
+    }
+    .contenedor-frase a{
+        padding: 15px 16px;
+    }
+    /*footer*/
+    .flex-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        width: 90%;
+        margin-top: 2em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    }
+    
+    .text{
+        text-align: center;
+    font-size: 1.4em;
+    /* padding: 20px 15px; */
+    margin-left: 18px;
+    margin-bottom: -3em;
+    }
+    .right h4{
+        font-size:2.4em;
+    }
+    .title-footer{
+        margin-top: -14px;
+    }
+    .parrafo-footer{
+        margin-top: -2.5em
+    }
+}

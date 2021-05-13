@@ -1,0 +1,163 @@
+
+/**
+#encabezado{
+    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    width: 100%;
+   
+}
+.container-all{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-imgs img{
+    width: 70%;
+    
+}
+**/
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin:auto;
+    margin-bottom: 30px;
+    
+}
+.container-flex{
+    width: 90%;
+    max-width: 1200px;
+    margin:auto;
+    align-items: center;
+    
+}
+.container-flex-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4em;
+    
+}
+.container-img img{
+    width: 95%;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+.container-text{
+    padding-right: 1em;
+    margin-top: 3em;
+    margin-right: 1em;
+    margin-left: 2em;
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+
+
+
+.container-text h2{
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-family: 'Fira Sans';
+    text-align: center;
+}
+.container-text p{
+    font-size: 20px;
+    font-family: Merriweather;
+    text-align: center;
+}
+.container-flex p{
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s
+}
+.container-text h2{
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s
+}
+
+/*how it work*/
+.all-container{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.object img{
+    margin-left: 8.5em;
+    width: 25%;
+    margin-bottom: 32px;
+}
+.object p{
+    
+    padding-right: 12px; 
+    font-size: 20px;
+   text-align: center;
+   
+}
+.object h4{
+    margin-bottom: 29px;
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 1.5em;
+}
+.btn{
+    padding: 16px 14px;
+    background: rgb(61, 193, 211);
+    display: inline-block;
+    margin-left: 33.9em;
+    margin-top: 2em;
+    
+}
+.btn a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.btn:hover{
+    
+    background: #63cdda;
+}
+a:hover{
+    color:#303952;
+}
+@media screen and (max-width:480px){
+    .container-flex-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-flex-img img{
+        width: 113%;
+        margin-left: -1.5em;
+        margin-top: -0.5em;
+        
+    }
+    .container-text{
+      
+       margin-top: 1em;
+       margin-left: -1em;
+       text-align: center;
+       padding-left: 1.5em
+    }
+    .all-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .object img{
+    margin-left: 7.5em;
+    width: 25%;
+    margin-bottom: 32px;
+    }
+    .object h4{
+    margin-bottom: 29px;
+    text-align: center;
+    }
+    .btn{
+        padding: 22px 12px;
+    background: #3dc1d3;
+    display: inline-block;
+    margin-left: 3.9em;
+    margin-top: 2em;
+    }
+}
